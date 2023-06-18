@@ -1,0 +1,143 @@
+/***************************************************
+*                                                  *
+*       These are specefic to the site             *
+*                                                  *
+***************************************************/
+body{
+    background-color:rgb(192, 61, 61);
+}
+* {
+    /* border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-emphasis: bold;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+h3 {
+    margin: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+ul {
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+    text-align: center;
+}
+
+ol {
+    padding: 1rem 15rem;
+    margin: 1rem;
+    text-align: center;
+    list-style: none;
+}
+li {
+    margin: .5rem;
+}
+/***************************************************
+*                                                  *
+*       These are specefic to index.html           *
+*                                                  *
+***************************************************/
+.home_nav {
+    margin: 1rem;
+    text-align: center;
+}
+.home.nav_item {
+    font-family: 'Alegreya SC', serif;
+    display: inline-block;
+    margin: 1rem;
+}
+.index {
+    font-family: 'Alegreya SC', serif;
+    margin: 1rem;
+}
+/***************************************************
+*                                                  *
+*       These are specefic to lasagna.html         *
+*                                                  *
+***************************************************/
+body.lasagna{
+    background-color: bisque;
+}
+.lasagna {
+    font-family: 'Brygada 1918', serif;
+}
+.lasagna img{
+    display: block;
+    margin: 2rem auto;
+    box-shadow: 2px 2px 2px gray;
+}
+
+/***************************************************
+*                                                  *
+*       These are specefic to noodle.html          *
+*                                                  *
+***************************************************/
+body.noodle{
+    background-color: lightsalmon;
+}
+.noodle {
+    font-family: 'Comfortaa', cursive;
+}
+.noodle img{
+    display: block;
+    margin: 0rem auto;
+    width: 40rem;
+    height: auto;
+}
+
+.noodle p{
+    padding: 0rem 25rem;
+}
+/***************************************************
+*                                                  *
+*       These are specefic to cofee.html           *
+*                                                  *
+***************************************************/
+body.galactic{
+    background-color: rgb(40, 17, 41); 
+}
+.galactic .text
+{
+    background: linear-gradient(to right, rgba(132, 46, 230), rgba(185, 47, 29),rgba(44, 218, 241), rgba(248, 153, 44) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} 
+.galactic .heading
+{
+    animation: wave 3000ms infinite;
+    transition: all 0s;
+}
+.galactic img{
+    display: block;
+    margin: 1rem auto;
+    width: 20rem;
+    height: auto;
+}
+@keyframes wave
+{
+    0%
+    {
+        background-position: 0 0;
+    }    
+    100%
+    {
+        background-position: 90vw 10px;
+    }
+}
